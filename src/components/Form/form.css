@@ -1,0 +1,70 @@
+.form-field-wrapper {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+form.repair-forms {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top:30px;
+}
+
+.repair-form__btns-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100px;
+}
+button.repair-form-add__btn,
+.repair-form-cancel__btn {
+  width: 49%;
+}
+
+button.post-new-form-add__btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 110px;
+  margin-right: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  background-image: url(https://w7.pngwing.com/pngs/1003/979/png-transparent-computer-icons-message-email-sms-sms-miscellaneous-blue-angle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  border: none;
+}
+.card-edit-form-add__btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 90px;
+  margin-right: 5px;
+  width: 32px;
+  height: 32px;
+  border-radius: 32px;
+  background-image: url(https://w7.pngwing.com/pngs/1003/979/png-transparent-computer-icons-message-email-sms-sms-miscellaneous-blue-angle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: pointer;
+  border: none;
+}
+button.form-add__btn:hover {
+  border: 1px solid rosybrown;
+}
+
+
+.tooltipe {
+  color: red;
+  margin: 15px auto;
+  font-size: 0.8rem;
+  visibility: hidden;
+}
+
+
